@@ -126,3 +126,9 @@ dmypy.json
 
 # PyCharm
 .idea/
+
+# Media and Static
+/drf_and_image_uploads/media/
+!/drf_and_image_uploads/media/.gitkeep
+/drf_and_image_uploads/static/
+!/drf_and_image_uploads/static/.gitkeep
