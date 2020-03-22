@@ -29,7 +29,7 @@ document.getElementById('avatar_form').addEventListener('submit', function(event
     event.preventDefault();
     let input = document.getElementById('id_avatar');
 
-    var data = new FormData();
+    let data = new FormData();
     data.append('avatar', input.files[0]);
 
     fetch('http://127.0.0.1:8000/api/user-avatar/', {

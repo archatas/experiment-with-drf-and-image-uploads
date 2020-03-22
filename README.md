@@ -9,3 +9,7 @@ To check image upload via REST API, perform these steps:
 5. Create superuser.
 4. Run local development server.
 5. Visit http://127.0.0.1:8000 and try out the forms.
+
+This is how it looks there:
+
+![The frontend of the experiment](how-to-upload-a-file-using-django-rest-framework-frontend.png)
