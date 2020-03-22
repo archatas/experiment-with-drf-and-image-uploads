@@ -10,10 +10,8 @@ from rest_framework.authtoken.views import obtain_auth_token
 
 urlpatterns = [
     path("", TemplateView.as_view(template_name="index.html")),
-    path(
-        "api/user-avatar/", UserAvatarUpload.as_view(), name="rest_user_avatar_upload"
-    ),
-    path("api/auth-token/", obtain_auth_token),
+    path("api/auth-token/", obtain_auth_token, name="rest_auth_token"),
+    path("api/user-avatar/", UserAvatarUpload.as_view(), name="rest_user_avatar_upload"),
     path("admin/", admin.site.urls),
 ]
 
